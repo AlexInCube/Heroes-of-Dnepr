@@ -1,0 +1,27 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+	</styles>
+	<Panel class="AddonLoadingRoot">
+		<Panel id="CustomBg" >
+			<Image src="file://{images}/custom_game/loading_screen/custom_bg.png"/>
+		</Panel>
+		<Panel id="patreonload">
+		<Label text="Заходите в дискорд сервер и пишите своё мнение,"/>
+		<Label text="также задонатьте мне на Роллтон."/>
+        <Button id="patron" onactivate="DOTADisplayURL('https://www.patreon.com/alexincube');">
+			<Image src="file://{images}/custom_game/loading_screen/patreon.png"/>
+		</Button> 
+		</Panel>
+		
+		<Panel id="discordload">
+		
+        <Button id="discord" onactivate="DOTADisplayURL('https://discord.gg/bJgFmUx');">
+			<Image src="file://{images}/custom_game/loading_screen/discord.png"/>
+		</Button> 
+		</Panel>
+		
+		
+	</Panel>
+</root>
+

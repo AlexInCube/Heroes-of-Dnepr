@@ -1,0 +1,113 @@
+.AddonLoadingRoot
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#TitlePanel
+{
+	horizontal-align: left;
+	vertical-align: bottom;
+	margin-bottom: 150px;
+	margin-left: 100px;
+	flow-children: right;
+}
+
+#AddonTitle
+{
+	margin-bottom: -15px;
+	vertical-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: #cccccc;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.ProBg
+{
+	background-repeat: repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+#VKmain 
+{
+
+	horizontal-align: left;
+	vertical-align: top;
+	position: 60px 0px 0px; 
+}
+
+#VK 
+{
+	width: 746px;
+	height: 84px;
+	background-color: black;
+	vertical-align: middle;
+	horizontal-align: center;	
+}
+
+.avatar
+{
+	width: 746px;
+	height: 84px;
+	background-color: black;
+	vertical-align: middle;
+	horizontal-align: center;
+}
+
+#patreonload
+{
+    horizontal-align: left;
+    vertical-align: top;
+	
+	flow-children: down;
+	position: 60px 100px 0px; 
+}
+
+#patron
+{
+	width: 150px;
+    height: 150px;
+    
+    vertical-align: middle;
+    horizontal-align: left;   
+	
+}
+
+#patreonload Label
+{
+    color: orange;
+    font-size: 20px;
+    background-color: none;
+	
+}
+
+#discordload
+{
+    horizontal-align: left;
+    vertical-align: top;
+	
+	flow-children: down;
+	position: 50px 300px 0px; 
+}
+
+#discord
+{
+	width: 150px;
+    height: 150px;
+    
+    vertical-align: middle;
+    horizontal-align: left;   
+	
+}
+
+
+
+
+
+
+
+
+
