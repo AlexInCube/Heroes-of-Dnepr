@@ -1,0 +1,277 @@
+
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+	"Version"		"1"
+	
+	//=================================================================================================================
+	// Special Item Drops
+	//=================================================================================================================
+	"item_urn_of_shadows"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_ring_of_aquila"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_phase_boots"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_power_treads"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_blink"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_force_staff"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_cyclone"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_ghost"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_mask_of_madness"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_medallion_of_courage"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_soul_ring"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_blade_mail"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	
+	"item_shivas_guard"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_vanguard"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_sphere"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_vladmir"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_yasha"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_diffusal_blade"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_helm_of_the_dominator"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_mekansm"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_hood_of_defiance"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_veil_of_discord"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_basher"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_invis_sword"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_desolator"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_ultimate_scepter"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	
+	"item_greater_crit"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_sheepstick"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_heart"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_mjollnir"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_bfury"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_pipe"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_heavens_halberd"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_crimson_guard"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_black_king_bar"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_bloodstone"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_ethereal_blade"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_butterfly"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_monkey_king_bar"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	
+	
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_lotus_orb"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_guardian_greaves"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_moon_shard"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_solar_crest"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_silver_edge"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	"item_octarine_core"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	
+	//=================================================================================================================
+	// Sentry Ward
+	//=================================================================================================================
+	"item_ward_sentry"
+	{
+		"ItemCost"						"100"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lifetime"				"360"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_range"			"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"true_sight_range"		"850"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"health"				"200"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration_minutes_tooltip"				"6"
+			}
+		}
+	}
+	//=================================================================================================================
+	// Portal Scroll
+	//=================================================================================================================
+	"item_tpscroll"
+	{
+		
+		"AbilityCooldown"				"1"
+		"AbilitySharedCooldown"			"teleport"
+		"AbilityChannelTime"			"6.0"
+		"AbilityManaCost"				"0"
+		"ItemCost"						"0"
+		"ItemStackable"					"1"
+		"ItemInitialCharges"			"1"
+		
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"minimun_distance"		"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"maximum_distance"		"575"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_radius"			"200"
+			}
+		}
+	}
+	
+	
+}

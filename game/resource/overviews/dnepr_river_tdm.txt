@@ -1,0 +1,8 @@
+dnepr_river_tdm
+{
+	material materials/overviews/dnepr_river_tdm.vmat
+	pos_x -8888
+	pos_y 8364
+	scale 16.305
+}
+

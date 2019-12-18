@@ -1,0 +1,447 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Techies 1
+	//=================================================================================================================
+	"npc_dota_hero_techies_template"
+	{
+		"override_hero"			"npc_dota_hero_techies"
+		"Ability1"				"techies_land_mines"
+		"Ability2"				"techies_suicide"
+		"Ability3"				"techies_suicide_datadriven2"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"serega_allah_boom"
+		"Ability11"				"special_bonus_cooldown_reduction_10"
+		"Ability12"				"special_bonus_unique_techies_3"
+		"Ability16"				"special_bonus_armor_15"
+		"Ability17"				"special_bonus_all_stats_20"
+		
+	}
+	//=================================================================================================================
+	// HERO: Gerald (juggernaut) 2
+	//=================================================================================================================
+	"npc_dota_hero_juggernaut_template"
+	{
+		"MovementSpeed"		"330"
+		"AttributeAgilityGain"	"1.6"
+		"override_hero"			"npc_dota_hero_juggernaut"
+		"Ability1"				"lina_dragon_slave_datadriven"
+		"Ability2"				"gerald_quen_datadriven"
+		"Ability3"     			"geraldaxii_datadriven"
+		"Ability4"				"acid_spray_datadriven"
+		"Ability6"				"wave_of_silence_datadriven"		
+		"Ability12"				"special_bonus_agility_10"
+		"Ability15"				"special_bonus_magic_resistance_25"
+		"Ability17"				"special_bonus_agility_25"
+		
+		
+		
+	}
+	//=================================================================================================================
+	// HERO: Ciri (crystal maiden) 3
+	//=================================================================================================================
+	"npc_dota_hero_crystal_maiden_template"
+	{
+		"MovementSpeed"			"300"
+		"MovementTurnRate"		"1"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"override_hero"			"npc_dota_hero_crystal_maiden"
+		"Ability1"				"antimage_blink"
+		"Ability2"				"juggernaut_omni_slash"
+		"Ability3"				"chaos_meteor_datadriven"
+	    "Ability6"				"wildhunt_datadriven"
+		"Ability12"				"special_bonus_attack_damage_100"
+		"Ability15"				"special_bonus_cooldown_reduction_20"
+		"Ability16"				"special_bonus_unique_antimage"
+		"Ability17"				"special_bonus_unique_juggernaut_2"
+	}
+	//=================================================================================================================
+	// HERO: Dilan (anti-mage) 4
+	//=================================================================================================================
+	"npc_dota_hero_antimage_template"
+	{
+		"AttributeBaseAgility"  "15"
+		"AttributeAgilityGain"	"2.1"
+		"AttributeStrengthGain" "1"
+        "AttributeIntelligenceGain"  "1.3"
+		"override_hero"			"npc_dota_hero_antimage"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/hero_dilan/banditradio.vsndevts"
+		"Ability1"				"dilan_randomchik"
+		"Ability2"				"money_from_bratishka"
+		"Ability3"				"wind_walk_datadriven"
+		"Ability6"				"grandmother_pie"
+		"Ability12"				"special_bonus_exp_boost_20"
+		"Ability14"				"special_bonus_magic_resistance_25"
+		"Ability15"				"special_bonus_movement_speed_50"
+		"Ability16"				"special_bonus_agility_30"
+		"Ability17"				"special_bonus_attack_speed_70"
+	}
+	//=================================================================================================================
+	// HERO: Dima (zuus) 5
+	//=================================================================================================================
+	"npc_dota_hero_zuus_template"
+	{
+		"override_hero"			"npc_dota_hero_zuus"
+		"Ability1"				"zuus_lightning_bolt"
+		"Ability2"				"arc_lightningmorepower_datadriven"
+		"Ability3"				"zuus_arc_lightning"
+		"Ability6"				"abyssal_underlord_pit_of_malice"
+		"Ability12"				"special_bonus_gold_income_15"
+		"Ability13"				"special_bonus_unique_underlord"
+		
+	}
+	//=================================================================================================================
+	// HERO: Kolan (skywrathmage) 6
+	//=================================================================================================================
+	"npc_dota_hero_skywrath_mage_template"
+	{
+		"AttributeStrengthGain"		"2.600000"
+		"AttributeAgilityGain"		"2"
+		"override_hero"			"npc_dota_hero_skywrath_mage"
+		"Ability1"				"lone_druid_spirit_bear"
+		"Ability2"				"puck_phase_shift_datadriven"
+		"Ability3"				"TestSysAura"
+		"Ability6"				"queenofpain_sonic_wave"
+		"Ability12"				"special_bonus_unique_lone_druid_3"
+		"Ability13"				"special_bonus_gold_income_15"
+		"Ability14"				"special_bonus_unique_lone_druid_9"
+		"Ability15"				"special_bonus_magic_resistance_50"
+		"Ability16"				"special_bonus_all_stats_20"
+		"Ability17"				"special_bonus_intelligence_45"
+		
+	}
+	//=================================================================================================================
+	// HERO: Egor (nightstalker) 7
+	//=================================================================================================================
+	"npc_dota_hero_night_stalker_template"
+	{
+		
+		"override_hero"			"npc_dota_hero_night_stalker"
+		"Ability1"				"watch_hentai"
+		"Ability2"				"axe_berserkers_call"
+		"Ability3"				"degradation"
+		"Ability6"				"naga_siren_song_of_the_siren_datadriven"
+		"Ability16"				"special_bonus_cooldown_reduction_20"
+		"Ability17"				"special_bonus_strength_50"
+	}
+	//=================================================================================================================
+	// HERO: AlexInCube (wraithking) 8
+	//=================================================================================================================
+	"npc_dota_skeleton_king_template"
+	{
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"override_hero"			"npc_dota_hero_skeleton_king"
+		"AttributeStrengthGain"		"3.2"
+		"AttributeAgilityGain"		"3.2"
+		"AttributeIntelligenceGain"		"3.2"
+		"Ability1"				"dragon_tail_datadriven"
+		"Ability2"				"track_datadriven"
+		"Ability3"				"alex_poxyism"
+		"Ability6"				"alex_slomatkastomky"
+		"Ability10"				"special_bonus_gold_income_20"
+		"Ability11"				"special_bonus_attack_speed_50"
+		"Ability13"				"special_bonus_attack_damage_40"
+		"Ability14"				"special_bonus_strength_25"
+		"Ability15"				"special_bonus_cooldown_reduction_15"
+		"Ability16"				"special_bonus_magic_resistance_30"
+		"Ability17"				"special_bonus_attack_damage_60"
+		
+		
+	}
+	//=================================================================================================================
+	// HERO: Sanya Kravec (slark) 9
+	//=================================================================================================================
+	"npc_dota_slark_template"
+	{
+	"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+	"override_hero"			"npc_dota_hero_slark"
+	"AttributeAgilityGain"		"3.5"
+	"Ability1"				"puck_illusory_orb"
+	"Ability2"				"weave_datadriven"
+	"Ability3"				"kravecvorinti"
+	"Ability4"				"puck_ethereal_jaunt"
+	"Ability5"				"generic_hidden"
+	"Ability6"				"primal_roar_datadriven"
+	"Ability14"				"special_bonus_intelligence_20"
+	"Ability15"				"special_bonus_cooldown_reduction_10"
+	"Ability16"				"special_bonus_unique_puck"
+	"Ability17"				"special_bonus_cooldown_reduction_15"
+	}
+	//=================================================================================================================
+	// HERO: Vitalya NoName (riki) 10
+	//=================================================================================================================
+	"npc_dota_riki_template"
+	{
+	"override_hero"			"npc_dota_hero_riki"
+	"MovementSpeed"			"305"
+	"AttributeBaseIntelligence"		"25"
+	"AttributeIntelligenceGain"		"2.5"
+	"Ability1"				"shitty_wizard_wizardry"
+	"Ability2"				"shadow_demon_disruption"
+	"Ability3"				"smoke_screen_datadriven"
+	"Ability6"				"viscous_nasal_goo_datadriven"
+	"Ability13"				"special_bonus_gold_income_15"
+	"Ability14"				"special_bonus_cooldown_reduction_10"
+	"Ability15"				"special_bonus_all_stats_20"
+	"Ability16"				"special_bonus_magic_resistance_30"
+	"Ability17"				"special_bonus_unique_shadow_demon_7"
+	}
+	//=================================================================================================================
+	// HERO: Doomguy (sniper) 11
+	//=================================================================================================================
+	"npc_dota_hero_sniper_template"
+	{
+	"override_hero"				"npc_dota_hero_sniper"
+	"AttackRange"				"500"
+	"AttributeBaseStrength"		"24"
+	"AttributeStrengthGain"		"2.4"
+	"Ability1"					"troll_warlord_berserkers_rage_datadriven"
+	"Ability2"					"doom_guy_shot_gun_fastshot"
+	"Ability3"					"doom_guy_rifle_muzzlesight_datadriven"
+	"Ability4"					"mirana_leap_datadriven"
+	"Ability6"					"sniper_assassinate_datadriven"
+	"Ability10"					"special_bonus_movement_speed_30"
+	"Ability11"					"special_bonus_attack_damage_35"
+	"Ability12"					"special_bonus_all_stats_10"
+	"Ability13"					"special_bonus_attack_damage_40"
+	"Ability14"					"special_bonus_attack_speed_50"
+	"Ability15"					"special_bonus_attack_damage_50"
+	"Ability16"					"special_bonus_attack_speed_60"
+	"Ability17"					"special_bonus_attack_damage_60"
+	}
+	//=================================================================================================================
+	// HERO: Kirill (windranger) 12
+	//=================================================================================================================
+	"npc_dota_hero_windrunner_template"
+	{
+	"override_hero"				"npc_dota_hero_windrunner"
+	"Ability1"					"kirill_shackleshot"
+	"Ability2"					"windrunner_powershot_datadriven"
+	"Ability3"					"windrunner_windrun_datadriven"
+	"Ability6"					"windrunner_focusfire_datadriven"
+	"Ability10"					"special_bonus_movement_speed_30"
+	"Ability11"					"special_bonus_attack_damage_40"
+	"Ability12"					"special_bonus_spell_amplify_12"
+	"Ability15"					"special_bonus_truestrike"
+	"Ability14"					"special_bonus_all_stats_20"
+	"Ability16"					"special_bonus_cast_range_275"
+	}
+	//=================================================================================================================
+	// HERO: Zofia (drowranger) 13
+	//=================================================================================================================
+	"npc_dota_hero_drow_ranger_template"
+	{
+	"override_hero"				"npc_dota_hero_drow_ranger"
+	"ability1"					"grenadelaucher_datadriven"
+	"ability2"					"grenadelaucher_flash_datadriven"
+	"ability3"					"skeleton_king_reincarnation"
+	"ability6"					"ursa_enrage_datadriven"
+	"Ability13"					"special_bonus_cast_range_125"
+	"Ability15"					"special_bonus_attack_damage_40"
+	"Ability16"					"special_bonus_gold_income_30"
+	}
+	//=================================================================================================================
+	// HERO: Shrek (lifestealer) 14
+	//=================================================================================================================
+	"npc_dota_hero_life_stealer_template"
+	{
+	"override_hero"				"npc_dota_hero_life_stealer"
+	"ability1"					"osel"
+	"ability2"					"vonuckha_datadriven"
+	"ability3"					"spawn_spiderlings_datadriven"
+	"ability6"					"berserkers_call_datadriven"
+	"Ability15"					"special_bonus_all_stats_10"
+	"Ability16"					"special_bonus_cooldown_reduction_15"
+	"Ability17"					"special_bonus_strength_25"
+	}
+	//=================================================================================================================
+	// HERO: Spudimun (io;wisp) 15
+	//=================================================================================================================
+	"npc_dota_hero_wisp_template"
+	{
+	"override_hero"				"npc_dota_hero_wisp"
+	"ability1"					"rattletrap_hookshot"
+	"ability2"					"meepo_earthbind"
+	"ability3"					"broodmother_spin_web"
+	"ability6"					"arc_warden_tempest_double"
+	"Ability12"					"special_bonus_unique_meepo_3"
+	"Ability13"					"special_bonus_cast_range_200"
+	"Ability15"					"special_bonus_truestrike"
+	"Ability16"					"special_bonus_cooldown_reduction_15"
+	"Ability17"					"special_bonus_strength_25"
+	}
+	//=================================================================================================================
+	// HERO: Dartanian (pangolier) 16
+	//=================================================================================================================
+	"npc_dota_hero_pangolier_template"
+	{
+	"override_hero"				"npc_dota_hero_pangolier"
+	"ability1"					"pangolier_swashbuckle"
+	"ability2"					"okita_zanmato"
+	"ability3"					"pangolierhat_datadriven"
+	"ability6"					"rupture_datadriven"
+	"Ability12"					"special_bonus_mana_break_20"
+	"Ability13"					"special_bonus_cooldown_reduction_10"
+	"Ability17"					"special_bonus_gold_income_15"
+	}
+	//=================================================================================================================
+	// HERO: ALCore (earthshaker) 17
+	//=================================================================================================================
+	"npc_dota_hero_earthshaker_template"	
+	{
+	"override_hero"				"npc_dota_hero_earthshaker"	
+	"AttributeBaseStrength"		"24"
+	"AttributeStrengthGain"		"2"
+	"ability1"					"alcore_hex"
+	"Ability3"					"alcore_ulti"
+	"Ability4"					"rubick_empty1"
+	"Ability5"					"rubick_empty2"
+	"ability6"					"rubick_spell_steal"
+	"ability14"					"special_bonus_unique_earthshaker_2"
+	"ability15"					"special_bonus_cooldown_reduction_25"
+	"ability16"					"special_bonus_unique_rubick_5"
+	}
+	//=================================================================================================================
+	// HERO: Xoxol (ogremagi) 18
+	//=================================================================================================================
+	"npc_dota_hero_ogre_magi_template"
+	{
+	"override_hero"				"npc_dota_hero_ogre_magi"
+	"AttributeBaseStrength"		"17"
+	"ability1"					"xoxol_salo"
+	"ability2"					"gyrocopter_call_down"	
+    "ability3"					"xoxol_gimn"
+	"ability6"					"xoxol_ulti"
+	"ability16"					"special_bonus_unique_gyrocopter_4"
+	"ability17"					"special_bonus_unique_gyrocopter_5"
+	
+	}
+	//=================================================================================================================
+	// HERO: PopoShigatel (phoenix) 19
+	//=================================================================================================================
+	"npc_dota_hero_phoenix_template"
+	{
+	"override_hero"	"npc_dota_hero_phoenix"
+	"ability1"	"fire_arrow"
+	"ability2"	"aphotic_shield_datadriven"
+	"ability3"	"return_datadriven"
+	"Ability4"	"generic_hidden"
+	"Ability5"	"generic_hidden"
+	"ability6"	"searing_chains_datadriven"
+	"ability12"	"special_bonus_cast_range_200"
+	"Ability14"		"special_bonus_unique_phoenix_4"
+	"Ability15"		"special_bonus_unique_phoenix_2"
+	"Ability16"		"special_bonus_cooldown_reduction_25"	
+	"Ability17"		"special_bonus_magic_resistance_40"
+	}
+	//=================================================================================================================
+	// HERO: Manalock (arc warden) 20
+	//=================================================================================================================
+	"npc_dota_hero_arc_warden_template"
+	{
+	"override_hero"		"npc_dota_hero_arc_warden"	
+	"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+	"AttackRate"		"1.400000"
+	"ability1"			"manaquentiscence"
+	"ability2"			"time_dilation_datadriven"
+	"ability3"			"morphling_morph_agi_datadriven"
+	"ability4"			"morphling_morph_str_datadriven"
+	"ability6"			"time_walk_datadriven"
+	"ability13"			"special_bonus_all_stats_8"
+	"ability14"			"special_bonus_mana_break_20"
+	"ability17"			"special_bonus_mp_1000"
+	}
+	//=================================================================================================================
+	// HERO: Boxer (tusk) 21
+	//=================================================================================================================
+	"npc_dota_hero_tusk_template"
+	{
+	"override_hero"		"npc_dota_hero_tusk"
+	"AttributeIntelligenceGain"		"0.1"
+	"AttributeStrengthGain"			"4"
+	"AttributeAgilityGain"			"0.1"
+	"AttributeBaseIntelligence"		"10"
+	"Ability1"			"ursa_overpower_datadriven"
+	"Ability2"			"legion_commander_moment_of_courage"
+	"Ability3"			"slardar_bash"
+	"Ability13"			"special_bonus_mp_100"
+	"Ability14"			"special_bonus_unique_legion_commander_3"
+	"Ability17"			"special_bonus_unique_slardar_2"
+	}
+	//=================================================================================================================
+	// HERO: Roshan (tiny) 22
+	//=================================================================================================================
+	"npc_dota_hero_tiny_template"
+	{
+	"override_hero"				"npc_dota_hero_tiny"
+	"Model"						"models\creeps\roshan\roshan.mdl"	// Model.
+	"Portrait"					"models\creeps\roshan\roshan.mdl"
+	"ModelScale"				"0.3"
+	"SoundSet"					"Roshan"
+	"ArmorPhysical"                "4"
+	"MagicalResistance"            "0"
+	"AttackRate"                 "2"
+	"AttackAnimationPoint"       "0.3"
+	"MovementTurnRate" 			"1.2"
+	"MovementSpeed"               "270"
+	"StatusMana"				"0"
+	"AttributeBaseIntelligence"	"0"
+	"AttributeIntelligenceGain"	"0"
+	"Ability1"					"roshan_spell_block"	// Ability 1.
+	"Ability2"					"roshan_bash"			// Ability 2.
+	"Ability3"					"roshan_slam"			// Ability 3.
+	"Ability6"					"roshan_attributes"
+	"Ability13"					"special_bonus_attack_damage_50"
+	"Ability14"					"special_bonus_mana_break_40"
+	"Ability15"					"special_bonus_gold_income_20"
+	"Ability16"					"special_bonus_truestrike"
+	"Ability17"					"special_bonus_attack_speed_100"
+	}
+	//=================================================================================================================
+	// HERO: Mirage (phantom lancer) 23
+	//=================================================================================================================
+	"npc_dota_hero_phantom_lancer_template"
+	{
+	"override_hero"		"npc_dota_hero_phantom_lancer"
+	"ability1"  		"mirage_bait"
+	"ability2"			"mirage_lastchance"
+	"ability6"			"mirage_ulti"
+	"Ability13"			"special_bonus_all_stats_4"
+	"Ability15"			"special_bonus_mana_break_20"
+	"Ability16"			"special_bonus_unique_phantom_lancer_2"
+	}
+	//=================================================================================================================
+	// HERO: Daniil
+	//=================================================================================================================
+	"npc_dota_hero_tidehunter_template"
+	{
+	"override_hero"		"npc_dota_hero_tidehunter"
+	"ability1"			"daniil_throw_monitor"
+	"ability2"			"daniil_fat_layer"
+	
+	}
+	//=================================================================================================================
+	// HERO: Testing Hero (How are you?)
+	//=================================================================================================================
+	"npc_dota_hero_lina_template"
+	{
+	"override_hero"	"npc_dota_hero_lina"
+	"AttributeBaseStrength"		"1000"
+	"Ability1"	"duel_datadriven"
+	"ability6"			"chronosphere_datadriven"
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
